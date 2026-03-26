@@ -1,0 +1,15 @@
+import { std } from "wow/wotlk";
+
+const CURSED_PUMPKIN = std.Items.create("shrek6", "cursed-pumpkin")
+    .Name.enGB.set("Cursed Pumpkin")
+    .Description.enGB.set("spooky")
+    .DisplayInfo.set(46514)
+    .Bonding.BINDS_ON_EQUIP.set()
+    .Class.CLOTH_EQUIP.set()
+    .InventoryType.HEAD.set()
+    .Quality.GREEN.set()
+    .Armor.set(37)
+    .Durability.set(700)
+    .Price.PlayerSellPrice.set(250)
+    .ItemLevel.set(5)
+    .MaxStack.set(1)
