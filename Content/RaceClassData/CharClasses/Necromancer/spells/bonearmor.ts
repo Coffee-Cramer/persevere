@@ -1,0 +1,31 @@
+import { std } from "wow/wotlk";
+
+export const BONEARMOR = std.Spells.create('shrek6', 'BONEARMOR')
+    .Name.enGB.set("Bone Armor")
+    .Subtext.enGB.set("Rank 1")
+    .Icon.setPath("spell_shadow_unsummonbuilding")
+    .Description.enGB.set("Bones swirl around the target, protecting them from incoming attacks. Absorbing $s1 of all damage taken for $d1.")
+    .AuraDescription.enGB.set("Absorbing $s1 damage.")
+    .CastTime.set(0)
+    .Range.setSimple(0, 30)
+    .Duration.setSimple(20000)
+    .Visual.set(std.Spells.load(11445).Visual.get()) //bone armor spell 11445, 31976 shadow shield
+    .Cooldown.Time.set(20000)
+    .Cooldown.GlobalTime.set(1500)
+    .Power.Type.MANA.set()
+    .Power.CostBase.set(25)
+    .SchoolMask.SHADOW.set(1)
+    .DispelType.DISPEL_MAGIC.set()
+    .Effects.addMod(x => x
+        .Type.APPLY_AURA.set()
+        .Aura.SCHOOL_ABSORB.set()
+        .School.setBit(0, 1) //physical
+        .School.add('ARCANE')
+        .School.add('FIRE')
+        .School.add('FROST')
+        .School.add('HOLY')
+        .School.add('NATURE')
+        .School.add('SHADOW')
+        .DamageBase.set(41)
+        .ImplicitTargetA.UNIT_TARGET_ALLY.set()
+    )

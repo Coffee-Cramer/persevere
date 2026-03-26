@@ -1,0 +1,23 @@
+import { std } from "wow/wotlk";
+
+export const CHNSDRK = std.Spells.create('shrek6', 'CHNSDRK')
+    .Name.enGB.set("Chains of Darkness")
+    .Subtext.enGB.set("Rank 1")
+    .Icon.setPath("spell_shadow_impphaseshift")
+    .Description.enGB.set("Chain the target in place for $d1.")
+    .AuraDescription.enGB.set("Chained.")
+    .CastTime.setSimple(2000)
+    .Range.setSimple(0, 30)
+    .Duration.setSimple(8000)
+    .Visual.set(std.Spells.load(1098).Visual.get()) 
+    .Cooldown.Time.set(30000)
+    .Cooldown.GlobalTime.set(1500)
+    .Power.Type.MANA.set()
+    .Power.CostBase.set(22)
+    .SchoolMask.SHADOW.set(1)
+    .DispelType.DISPEL_MAGIC.set()
+    .Effects.addMod(x => x
+        .Type.APPLY_AURA.set()
+        .Aura.MOD_ROOT.set()
+        .ImplicitTargetA.UNIT_TARGET_ENEMY.set()
+    )
