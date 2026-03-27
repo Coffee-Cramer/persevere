@@ -7,8 +7,8 @@ const BLDRG_VISUAL = std.SpellVisuals.load(BLDRG.Visual.get())
 
 const NEWENRGEKIT = std.SpellVisualKits.create(ENRGE.StateKit.get())
 //NEWENRGEKIT.BaseEffect.set(5132) //power infusion fire base effect
-NEWENRGEKIT.LeftHandEffect.set(94) //rage hands
-NEWENRGEKIT.RightHandEffect.set(94) //rage hands
+NEWENRGEKIT.LeftHandEffect.set(94) //rage hand left
+NEWENRGEKIT.RightHandEffect.set(94) //rage hand right
 
     
 
