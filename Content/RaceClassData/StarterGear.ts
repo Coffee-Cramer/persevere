@@ -4,24 +4,15 @@ import { BLDWRPS } from "../items/bladeMasterStartGear/blademaster-wraps"
 import { KATANA } from "../items/bladeMasterStartGear/blde-mstr-katana"
 import { KILT } from "../items/bladeMasterStartGear/kilt"
 import { ALLRACES_ENUM } from "../../Enumerators&Arrays/allRacesAllClassesArrays"
-import { BELFWARR_BOOTS } from "../items/BelfWarriorStartGear/belfWarrBoots"
-import { BELFWARR_LEGS } from "../items/BelfWarriorStartGear/belfWarrLegs"
-import { BELFWARR_SHIRT } from "../items/BelfWarriorStartGear/belfWarrShirt"
 import { NECRO } from "./CharClasses/Necromancer/necro"
 import { NECROROBE } from "../items/NecroStartGear/necroRobe"
 
 //*************************************************************************************************************************
 //*  Revert some starter gear to vanilla version. (Some are personal preferences)
 //*************************************************************************************************************************/
-const WARLOCK = std.Classes.load('WARLOCK')
-const PRIEST = std.Classes.load('PRIEST')
-const WARRIOR = std.Classes.load('WARRIOR')
 const HUNTER = std.Classes.load('HUNTER')
 const ROGUE = std.Classes.load('ROGUE')
-const MAGE = std.Classes.load('MAGE')
-const SHAMAN = std.Classes.load('SHAMAN')
-const PALADIN = std.Classes.load('PALADIN')
-const DRUID = std.Classes.load('DRUID')
+
 
 
 
