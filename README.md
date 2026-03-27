@@ -1,5 +1,4 @@
-All custom content was made in the spirit of 
-vanilla WoW and with my love for the game. I do
+All custom content was made with my love for the game. I do
 not claim ownership of any Blizzard content. 
 
 Made with the TSWoW framework and the help of 
