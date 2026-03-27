@@ -83,8 +83,10 @@ const RDMSK = std.Items.load(7997)
     .ClassMask.remove(BLDMSTR.Mask)
     .ClassMask.remove(NECRO.Mask)
 
+
+
 /*******************************************************************************************************************************
-*   Class Books Blademaster removal
+*   Class Books Blademaster/Necro removal
 ********************************************************************************************************************************/
 //HUNTER
 const HWK7 = std.Items.load(21307)
