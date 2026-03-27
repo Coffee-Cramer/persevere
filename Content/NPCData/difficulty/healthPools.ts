@@ -2,7 +2,7 @@ import { std } from "wow/wotlk";
 
 const NPCS = std.CreatureTemplates
 
-NPCS.forEach((npc) => {
+NPCS.forEach((npc) => {     //0.3 seems to be the sweet spot
     if(npc.Level.Max.get() > 1 && npc.Level.Max.get() <= 5){
         npc.Stats.HealthMod.set(npc.Stats.HealthMod.get() + 0.4)
     }
