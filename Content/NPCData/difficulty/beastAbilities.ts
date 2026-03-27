@@ -2,6 +2,11 @@ import { std } from "wow/wotlk";
 import { NEWRAGE } from "../../RaceClassData/CharClasses/blademaster/SpellVisuals/rage";
 import { NEWBLOODRAGE_VISUAL } from "../../RaceClassData/CharClasses/Warrior/SpellVisuals/bloodRageVisual";
 
+
+
+
+//Apply this to all beasts ingame
+
 const NPCS = std.CreatureTemplates
 
 const BEASTRAGE = std.Spells.create('shrek6', 'beastrage')
