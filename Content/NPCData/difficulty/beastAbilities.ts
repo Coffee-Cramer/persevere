@@ -11,7 +11,7 @@ const BEASTRAGE = std.Spells.create('shrek6', 'beastrage')
     .Range.setSimple(0, 5)
     .CastTime.setSimple(0)
     .Duration.setSimple(0)
-    .Visual.set(std.Spells.load(18499).Visual.get())
+    .Visual.set(NEWBLOODRAGE_VISUAL.ID)
     .Duration.setSimple(8000)
     .Effects.addMod(x => x
         .Type.APPLY_AURA.set()
