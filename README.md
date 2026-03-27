@@ -5,7 +5,5 @@ Made with the TSWoW framework and the help of its goated developers. For the liv
 ---------------------------------------------------------
 Content:
 - Harder difficulty world
-- Level 60
-- Eastern Kingdoms/Kalimdor only
-- 2 new classes: Necromancer + Blademaster (horde only)
+- 2 new classes: Necromancer & Blademaster (horde only)
 - Class reworks
