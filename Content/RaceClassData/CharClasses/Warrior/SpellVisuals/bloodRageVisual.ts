@@ -3,7 +3,7 @@ import { std } from "wow/wotlk"
 const BLDRG = std.Spells.load(29131)
 const ENRGE = std.SpellVisuals.load(std.Spells.load(72147).Visual.get())
 const BLDRG_VISUAL = std.SpellVisuals.load(BLDRG.Visual.get())
-//const FIRE = std.SpellVisuals.load(7553)
+//const FIRE = std.SpellVisuals.load(7553) //power infusion visual
 
 const NEWENRGEKIT = std.SpellVisualKits.create(ENRGE.StateKit.get())
 //NEWENRGEKIT.BaseEffect.set(5132) //fire base effect
