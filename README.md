@@ -7,5 +7,6 @@ Special thanks to TSWoW and its goated developers.
 - Harder difficulty world
 - 2 new classes: Necromancer + Blademaster
 - Class reworks
+- Various other miscellaneous additions/changes
 ---------------------------------------------------------
 I don't care who uses any of this. Personally, I'd be flattered if anyone finds anything in here they'd like to use.
