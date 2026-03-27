@@ -8,4 +8,4 @@ Made with the TSWoW framework and the help of its goated developers. For the liv
 - 2 new classes: Necromancer + Blademaster
 - Class reworks
 ---------------------------------------------------------
-I don't care who uses any of this, personally I'm flattered if anyone would finds anyhting in here they'd like to use.
+I don't care who uses any of this. Personally, I'd be flattered if anyone finds anything in here they'd like to use.
