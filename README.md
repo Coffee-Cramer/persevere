@@ -1,4 +1,4 @@
-All custom content was made with my love for the game. **I do not claim ownership of any Blizzard content.**
+All custom content was made out of love for the game. **I do not claim ownership of any Blizzard content.**
 
 Special thanks to TSWoW's goated developers.
 
