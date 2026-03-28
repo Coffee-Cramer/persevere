@@ -1,0 +1,81 @@
+import { std } from "wow/wotlk";
+
+//*************************************************************************
+// * Weapon Arts
+// ************************************************************************/
+const RNGF = std.Spells.create('shrek6', 'rngf', 14983)
+    .Name.enGB.set("Weapon Arts")
+    .Icon.setPath("Inv_weapon_halberd_02")
+    .Subtext.enGB.set("Rank 1")
+    .Description.enGB.set("Increases your Expertise by $s1.")
+    .CastTime.setSimple(0)
+    .Range.set(0)
+RNGF.Effects.get(0)
+    .Aura.MOD_EXPERTISE.set()
+    .PointsBase.set(1)
+
+//console.log(RNGF.objectify())
+
+const RNGF2 = std.Spells.create('shrek6', 'rngf2', 14983)
+    .Name.enGB.set("Weapon Arts")
+    .Icon.setPath("Inv_weapon_halberd_02")
+    .Subtext.enGB.set("Rank 2")
+    .Description.enGB.set("Increases your Expertise by $s1.")
+    .CastTime.setSimple(0)
+    .Range.set(0)
+    .Power.Type.ENERGY.set()
+    .Attributes.IS_PASSIVE.set(1)
+RNGF2.Effects.get(0)
+    .Aura.MOD_EXPERTISE.set()
+    .PointsBase.set(3)
+
+
+const RNGF3 = std.Spells.create('shrek6', 'rngf3',14983)
+    .Name.enGB.set("Weapon Arts")
+    .Icon.setPath("Inv_weapon_halberd_02")
+    .Subtext.enGB.set("Rank 3")
+    .Description.enGB.set("Increases your Expertise by $s1.")
+    .CastTime.setSimple(0)
+    .Range.set(0)
+    .Power.Type.ENERGY.set()
+    .Attributes.IS_PASSIVE.set(1)
+RNGF3.Effects.get(0)
+    .Aura.MOD_EXPERTISE.set()
+    .PointsBase.set(5)
+
+const RNGF4 = std.Spells.create('shrek6', 'rngf4',14983)
+    .Name.enGB.set("Weapon Arts")
+    .Icon.setPath("Inv_weapon_halberd_02")
+    .Subtext.enGB.set("Rank 4")
+    .Description.enGB.set("Increases your Expertise by $s1.")
+    .CastTime.setSimple(0)
+    .Range.set(0)
+    .Power.Type.ENERGY.set()
+    .Attributes.IS_PASSIVE.set(1)
+RNGF4.Effects.get(0)
+    .Aura.MOD_EXPERTISE.set()
+    .PointsBase.set(7)
+
+
+const RNGF5 = std.Spells.create('shrek6', 'rngf5',14983)
+    .Name.enGB.set("Weapon Arts")
+    .Icon.setPath("Inv_weapon_halberd_02")
+    .Subtext.enGB.set("Rank 5")
+    .Description.enGB.set("Increases your Expertise by $s1.")
+    .CastTime.setSimple(0)
+    .Range.set(0)
+    .Power.Type.ENERGY.set()
+    .Attributes.IS_PASSIVE.set(1)
+RNGF5.Effects.get(0)
+    .Aura.MOD_EXPERTISE.set()
+    .PointsBase.set(9)
+
+
+export const RING_FIGHTING_TALENT = TALENT_TREE1.Talents
+    .addSpellsGet('shrek6', 'ring-fighting-talent', 5)
+    .Position.set(0, 1)
+    .Spells.set(0, RNGF.ID)
+    .Spells.set(1, RNGF2.ID)
+    .Spells.set(2, RNGF3.ID)
+    .Spells.set(3, RNGF4.ID)
+    .Spells.set(4, RNGF5.ID)
