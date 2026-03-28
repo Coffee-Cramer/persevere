@@ -1,25 +1,18 @@
 import { std } from "wow/wotlk"
 
 const ENRGE = std.SpellVisuals.load(std.Spells.load(72147).Visual.get())
-const AGNY = std.SpellVisuals.load(std.Spells.load(980).Visual.get())
 
-//console.log(AGNY.objectify())
 //console.log(ENRGE.objectify())
 //console.log(ENRGE.StateKit.objectify())
 
-const EVIS = std.SpellVisuals.load(671)
-const FIRE = std.SpellVisuals.load(7553)
 
-//console.log(FIRE.StateKit.objectify())
 const NEWENRGEKIT = std.SpellVisualKits.create(ENRGE.StateKit.get())
-NEWENRGEKIT.BaseEffect.set(5132) //fire base effect
 NEWENRGEKIT.LeftHandEffect.set(94)
 NEWENRGEKIT.RightHandEffect.set(94)
 
 const NEWCASTKIT = std.SpellVisualKits.create() 
-    .Animation.set(-1)
+    //.Animation.set(-1)
     .Sound.set(std.SpellVisualKits.load(14107).Sound.get()) //ENRGE sound
-    .HeadEffect.set(std.SpellVisualKits.load(884).HeadEffect.get()) //Curse of Agony head effect
     
 
 export const NEWRAGE = std.SpellVisuals.create()
