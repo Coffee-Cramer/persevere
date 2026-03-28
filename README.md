@@ -1,6 +1,6 @@
 All custom content was made with my love for the game. **I do not claim ownership of any Blizzard content.**
 
-Special thanks to TSWoW and its goated developers.
+Special thanks to TSWoW's goated developers.
 
 ---------------------------------------------------------
 **Content:**
