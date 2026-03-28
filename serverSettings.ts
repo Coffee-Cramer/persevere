@@ -32,13 +32,6 @@ export const setBladeMaster: bool = true
 
 
 /********************************************************************************
-* Set Talents to 7 Rows, like Vanilla:
-*       - See RaceClassData/talentRevert.ts
-*********************************************************************************/
-export const talents60: bool = true
-
-
-/********************************************************************************
 * Enable/Disable Death Knight:
 *       - See RaceClassData/deathKnightEnable.ts
 *********************************************************************************/
